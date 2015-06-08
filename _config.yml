@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: jjperezaguinaga.com
+subtitle: Front-End Engineer, UX & Interactions Designer, Full-Stack Javascript Developer, Head of Web @Centralway. Javascript is beauty
+description: Articles on Web Technologies, Full Stack Web Development, Front End Applications, Javascript frameworks, strategies, and patterns.
+author: Jose Aguinaga
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://localhost:4000
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
