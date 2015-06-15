@@ -123,4 +123,7 @@ The directive triggers `oninput` and creates a `timeout`; this allows the use
 
 Although in it's infancy, I believe modern applications can rely on `&lt;datalist&gt;` to deliver a somewhat native experience for an autocomplete input field. Some drawbacks include styling the displayed entry list as well as to have full control on when to display the list. I had some issues displaying the list, specially when my source (in my case [Webscript.io](https://www.webscript.io/) and [Waymate](https://www.waymate.de/en/searches)) would take some time to deliver the new entries. Some times it needed up to two characters to display the list, but mainly because it wasn't loaded yet; this can confuse the user, making him think that there are no entries for his input. A good approach to solve this is to use the aforementioned loading spinner.
 
+<iframe height='268' scrolling='no' src='//codepen.io/jjperezaguinaga/embed/yuBdq/?height=268&theme-id=1773&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/jjperezaguinaga/pen/yuBdq/'>SVG Animation</a> by jjperezaguinaga (<a href='http://codepen.io/jjperezaguinaga'>@jjperezaguinaga</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
 Feel free to browse all the code in [Codepen.io](http://codepen.io/jjperezaguinaga/full/Dmspr)
