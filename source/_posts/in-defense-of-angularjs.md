@@ -8,9 +8,10 @@ categories:
 date: 2014-11-23 15:48:35
 ---
 
-Lately AngularJS has been getting a lot of bashing. To mention a few articles, we got [<span class="s1">“The Reason AngularJS will fall”</span>](http://okmaya.com/2014/03/12/the-reason-angular-js-will-fail/), [<span class="s1">“AngularJS: The Bad Parts”</span>](http://larseidnes.com/2014/11/05/angularjs-the-bad-parts/), and [<span class="s1">“AngularJS kinda sucks”</span>](http://okmaya.com/2014/02/27/angular-js-kinda-sucks/). This is not only due the AngularJS philosophy, but that with the recent [<span class="s1">Announcement of version 2.0</span>](https://www.youtube.com/watch?v=gNmWybAyBHI), people are asking themselves whether the [<span class="s1">AngularJS team has lost its marbles</span>](http://blog.dantup.com/2014/10/have-the-angular-team-lost-their-marbles/).
+Lately AngularJS has been getting a lot of bashing. To mention a few articles, we got [“The Reason AngularJS will fall”](http://okmaya.com/2014/03/12/the-reason-angular-js-will-fail/), [“AngularJS: The Bad Parts”](http://larseidnes.com/2014/11/05/angularjs-the-bad-parts/), and [“AngularJS kinda sucks”](http://okmaya.com/2014/02/27/angular-js-kinda-sucks/). This is not only due the AngularJS philosophy, but that with the recent [Announcement of version 2.0](https://www.youtube.com/watch?v=gNmWybAyBHI), people are asking themselves whether the [AngularJS team has lost its marbles](http://blog.dantup.com/2014/10/have-the-angular-team-lost-their-marbles/).
 
 While AngularJS is without doubt a very opinionated framework, by all means it's not the impossible to learn, bad practices/terminology/philosophy, horrible framework that it's being described as. The only issue with AngularJS is that **people are looking at it the wrong way**.
+<!--more-->
 
 ## **A little bit of history**
 
