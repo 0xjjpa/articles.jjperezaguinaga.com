@@ -8,7 +8,7 @@ categories:
 date: 2013-09-21 15:26:14
 ---
 
-I had been working in AngularJS for almost a year now, just right after they put Google’s logo in the web page. That’s around 20-40 hours a week in the past 10 months plus free time. Using the technology, I have done Chrome Applications, Mobile Applications, Web Apps, Modules, Animations and Single Page Applications (SPA’s). I can’t link all of them due a NDA with my company, but you can see some of my work on my [Coderwall profile](https://coderwall.com/p/u/jjperezaguinaga) and [Codepen profile](http://codepen.io/jjperezaguinaga/public/) to have an idea. At my company, we even worked on a bridge with AngularJS and LungoJS to make mobile applications, known internally as [L.A.B](https://github.com/centralway/lungo-angular-bridge), in which I made a couple not too shabby PR’s.
+I had been working in AngularJS for almost a year now, just right after they put Google’s logo in the web page. That’s around 20-40 hours a week in the past 10 months plus free time. Using the technology, I have done Chrome Applications, Mobile Applications, Web Apps, Modules, Animations and Single Page Applications (SPA’s). I can’t link all of them due a NDA with my company, but you can see some of my work on my [Coderwall profile](https://coderwall.com/p/u/jjperezaguinaga) and [Codepen profile](http://codepen.io/jjperezaguinaga/public/) to have an idea. At my company, we even worked on a bridge with AngularJS and LungoJS to make mobile applications, known internally as [L.A.B](https://github.com/centralway/lungo-angular-bridge), in which I made a couple not too shabby PR’s.<!--more-->
 
 With that introduction, I want to share the following statement:
 

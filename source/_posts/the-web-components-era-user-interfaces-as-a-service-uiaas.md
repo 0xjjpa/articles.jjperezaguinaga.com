@@ -14,7 +14,7 @@ date: 2013-10-15 02:10:20
 
 Exactly a month ago, a bunch of skilled developers and designers got together to discuss some of the most exciting topics related to CSS. This was known as the [CSS Conf EU 2013](http://cssconf.eu/), executed at Berlin in September. Of all the talks given there, one of them struck my attention the most: [CSS Module System in Google+](http://www.youtube.com/watch?v=vAs9tjEkkKk), by the Google Engineer Shubhie Panicker.
 
-In her talk, Shubhie states that CSS is not so simple. For instance, she mentions UI regressions, or in other words, how a style used by a specific module can override the style of another in a specific situation. To overcome this, Google+ uses an architecture that organizes the modules dependencies of each page, and then properly assembles the modules in a way that minimizes HTTP requests and allows future requests to be small as possible. This is achieved through [Google Closure Stylesheets](https://code.google.com/p/closure-stylesheets/) as well as other architecture patterns.
+In her talk, Shubhie states that CSS is not so simple. For instance, she mentions UI regressions, or in other words, how a style used by a specific module can override the style of another in a specific situation. To overcome this, Google+ uses an architecture that organizes the modules dependencies of each page, and then properly assembles the modules in a way that minimizes HTTP requests and allows future requests to be small as possible. This is achieved through [Google Closure Stylesheets](https://code.google.com/p/closure-stylesheets/) as well as other architecture patterns.<!--more-->
 
 ![Google+ CSS Module Dependency Graph](https://dl.dropboxusercontent.com/u/23857782/CSS-modules-dependency-graph-on-Google-Plus.png)
 
