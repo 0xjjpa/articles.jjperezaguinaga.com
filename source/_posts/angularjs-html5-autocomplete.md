@@ -15,7 +15,7 @@ Autocomplete is quite a common UX pattern; for many years we have been using it 
 
 Autocomplete form used in [Airbnb](https://airbnb.com) ![AirBnb](https://assets.jjperezaguinaga.com/v1/angularjs-html5-autocomplete/airbnb-autocomplete.png)
 
-In cases where Google APIs can provide the information, using their libraries is quite a good option. The libraries perform safe XHR calls through JSONP and load dynamically a set of entries that is then handled by custom CSS in order to position the entries in a location that makes it look like an autocomplete. Most javascript libraries follow the same approach.
+In cases where Google APIs can provide the information, using their libraries is quite a good option. The libraries perform safe XHR calls through JSONP and load dynamically a set of entries that is then handled by custom CSS in order to position the entries in a location that makes it look like an autocomplete. Most javascript libraries follow the same approach.<!--more-->
 
 ## Introducing Datalist
 

@@ -11,7 +11,7 @@ date: 2013-07-16 22:21:09
 
 Everyone has seen scroll based animations right? You know, the ones where you start scrolling down the webpage and animations start triggering around depending on how much you have scrolled. One of my favorite examples is [Let's free Congress](http://letsfreecongress.org/).
 
-Now, sometimes we want to trigger an animation, but we don't want to make theentire page to rely on the scroll... maybe, just a little part of it. However, we can't trigger the animation until the user is viewing the part we want to animate, or else the animation will do all its magic without no audience. How do we do this with AngularJS?
+Now, sometimes we want to trigger an animation, but we don't want to make theentire page to rely on the scroll... maybe, just a little part of it. However, we can't trigger the animation until the user is viewing the part we want to animate, or else the animation will do all its magic without no audience. How do we do this with AngularJS?<!--more-->
 
 ## Example 
 
