@@ -15,7 +15,7 @@ date: 2013-02-05 01:59:07
 
 _The following project was created as part of the class Human Computer Interaction by Maclean, Karon, teacher at UBC in Vancouver Canada. Team members include Ali Alabbas, Ryan Taylor, Daniel Conde, Ricky Chen and myself. Responsibilities included UX design and UI prototyping through Javascript and [KnockoutJS](http://knockoutjs.com/ "KnockoutJS")._
 
-Feel free to browse the code at [Github](https://github.com/jjperezaguinaga/UBC-CoursesWorklist "UBC Courses Worklist") and see the [demo](http://jjperezaguinaga.github.com/UBC-CoursesWorklist/ "UBC Courses List Demo").
+Feel free to browse the code at [Github](https://github.com/jjperezaguinaga/UBC-CoursesWorklist "UBC Courses Worklist") and see the [demo](http://jjperezaguinaga.github.com/UBC-CoursesWorklist/ "UBC Courses List Demo").<!--more-->
 
 ![UBC Registration Course Redesign](https://raw.github.com/jjperezaguinaga/UBC-CoursesWorklist/master/app/images/prototypes/Worklist%20prototype%20v5.png)
 
