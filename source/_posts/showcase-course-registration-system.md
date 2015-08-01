@@ -25,7 +25,7 @@ As a student, registering for courses is always a pain. I have seen multiple int
 
 This architecture of ensuring the last state of the courses provides most of the time a poor user experience for students. Every action performed has to be checked on with the system in order to ensure that it's valid. This looks something like this:
 
-![Check every transaction](https://assets.jjperezaguinaga.com/v1/showcase-course-registration-system/ubc-course-register-normal-workflow.png)
+![Check every transaction](https://assets.jjperezaguinaga.com/articles/v1/showcase-course-registration-system/ubc-course-register-normal-workflow.png)
 
 A rectangle represents a UI action performed by a student, while a circle a system check with the database. If a student wants to register N courses, he has to perform the UI action N times. This is defined as _Single Resource UI_, where each resource (in this case the course) is submitted to a system to check, and there's no way around it.
 
@@ -33,7 +33,7 @@ A rectangle represents a UI action performed by a student, while a circle a syst
 
 Our proposal for this problem was to create a **Transaction Based UI**.
 
-![Transaction UI](https://assets.jjperezaguinaga.com/v1/showcase-course-registration-system/ubc-course-register-transaction-workflow.png)
+![Transaction UI](https://assets.jjperezaguinaga.com/articles/v1/showcase-course-registration-system/ubc-course-register-transaction-workflow.png)
 
 In comparison with our previous architecture, the user only needs to perform 1 UI action that performs N system checks. The results on whether the action succeeded or not can be displayed in a First-Come First-Serve (FCFS) fashion through a Message Queue the UI is listening too.
 

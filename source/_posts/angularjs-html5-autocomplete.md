@@ -13,7 +13,7 @@ date: 2013-09-18 00:25:46
 
 Autocomplete is quite a common UX pattern; for many years we have been using it through browsers and mobile applications, but because of the lack of browsers support, most of the time we have to use Javascript libraries to perform the task.
 
-Autocomplete form used in [Airbnb](https://airbnb.com) ![AirBnb](https://assets.jjperezaguinaga.com/v1/angularjs-html5-autocomplete/airbnb-autocomplete.png)
+Autocomplete form used in [Airbnb](https://airbnb.com) ![AirBnb](https://assets.jjperezaguinaga.com/articles/v1/angularjs-html5-autocomplete/airbnb-autocomplete.png)
 
 In cases where Google APIs can provide the information, using their libraries is quite a good option. The libraries perform safe XHR calls through JSONP and load dynamically a set of entries that is then handled by custom CSS in order to position the entries in a location that makes it look like an autocomplete. Most javascript libraries follow the same approach.<!--more-->
 
@@ -21,7 +21,7 @@ In cases where Google APIs can provide the information, using their libraries is
 
 The `datalist` tag allows modern browsers to display a native like autocomplete. Although the support is not the [best around](http://caniuse.com/datalist), there's some [polyfills](http://css-tricks.com/relevant-dropdowns-polyfill-for-datalist/) that can make it work.
 
-Native Autocomplete in Chrome ![Native Autofill](https://assets.jjperezaguinaga.com/v1/angularjs-html5-autocomplete/native-chrome-autocomplete.png)
+Native Autocomplete in Chrome ![Native Autofill](https://assets.jjperezaguinaga.com/articles/v1/angularjs-html5-autocomplete/native-chrome-autocomplete.png)
 
 ## How to use Datalist?
 
