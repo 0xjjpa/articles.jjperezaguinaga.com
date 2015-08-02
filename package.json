@@ -1,6 +1,12 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "articles.jjperezaguinaga.com",
+  "version": "0.1.0",
+  "description": "Blog for jjperezaguinaga.com",
+  "author": "Jose Aguinaga me@jjperezaguinaga.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjperezaguinaga/articles.jjperezaguinaga.com"
+  },
   "private": true,
   "hexo": {
     "version": "3.1.1"
