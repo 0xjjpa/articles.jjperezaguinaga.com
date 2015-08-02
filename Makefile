@@ -12,7 +12,6 @@ build-app:
 	$(HEXO) generate
 
 build-image:
-	cp $(DOCKER-FILE) $(DIST)
 	$(DOCKER) build -t=$(DOCKER-REPO) $(DIST)
 
 build: build-app build-image
