@@ -20,7 +20,7 @@ build: build-app build-image
 run-docker:
 	$(DOCKER) run -d -p 80:8080 --name articles $(DOCKER-REPO)
 
-run: build run-doker
+run: build run-docker
 
 deploy-docker:
 	# Assumes docker login
