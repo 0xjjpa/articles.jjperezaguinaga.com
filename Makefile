@@ -12,9 +12,15 @@ build-app:
 	$(HEXO) generate
 
 build-image:
-	$(DOCKER) build -t=$(DOCKER-REPO) $(DIST)
+	cp $(DOCKER-FILE) $(DIST)
+	$(DOCKER) build -t=$(DOCKER-REPO) -f=$(DIST)/$(DOCKER-FILE) $(DIST)
 
 build: build-app build-image
+
+run-docker:
+	$(DOCKER) run -d -p 80:8080 --name articles $(DOCKER-REPO)
+
+run: build run-doker
 
 deploy-docker:
 	# Assumes docker login
