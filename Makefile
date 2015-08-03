@@ -18,8 +18,8 @@ build: build-app build-image
 
 deploy-docker:
 	# Assumes docker login
-	$(DOCKER) tag -f $(DOCKER-REPO) $(DOCKER-REGISTRY)/$(DOCKER-REPO)
-	$(DOCKER) push $(DOCKER-REGISTRY)/$(DOCKER-REPO)
+	$(DOCKER) tag -f $(DOCKER-REPO) $(DOCKER-REPO)
+	$(DOCKER) push $(DOCKER-REPO)
 
 deploy: deploy-docker
 
