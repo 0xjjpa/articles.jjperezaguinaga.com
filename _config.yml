@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: jjperezaguinaga.com
+subtitle: Front-End Engineer, UX & Interactions Designer, Full-Stack Javascript Developer, Head of Web @Centralway. Javascript is beauty
+description: Articles on Web Technologies, Full Stack Web Development, Front End Applications, Javascript frameworks, strategies, and patterns.
+author: Jose Aguinaga
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://jjperezaguinaga.com/articles
+root: /articles/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -63,9 +63,16 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: tranquilpeak
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
