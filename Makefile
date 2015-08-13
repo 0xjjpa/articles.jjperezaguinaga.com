@@ -8,6 +8,10 @@ DOCKER-FILE=Dockerfile
 DOCKER-REPO=jjperezaguinaga/articles
 DOCKER-REGISTRY=tutum.co
 
+clean:
+	$(DOCKER) stop articles
+	$(DOCKER) rm articles
+
 build-app:
 	$(HEXO) generate
 
@@ -21,7 +25,7 @@ build: build-app build-image
 run-docker:
 	$(DOCKER) run -d -p 80:8080 --name articles $(DOCKER-REPO)
 
-run: build run-docker
+run: clean build run-docker
 
 deploy-docker:
 	# Assumes docker login
