@@ -14,6 +14,7 @@ build-app:
 build-image:
 	cp $(DOCKER-FILE) $(DIST)
 	$(DOCKER) build -t=$(DOCKER-REPO) -f=$(DIST)/$(DOCKER-FILE) $(DIST)
+	$(DOCKER) tag -f $(DOCKER-REPO) $(DOCKER-REGISTRY)/$(DOCKER-REPO)
 
 build: build-app build-image
 
@@ -24,7 +25,6 @@ run: build run-docker
 
 deploy-docker:
 	# Assumes docker login
-	$(DOCKER) tag -f $(DOCKER-REPO) $(DOCKER-REGISTRY)/$(DOCKER-REPO)
 	$(DOCKER) push $(DOCKER-REGISTRY)/$(DOCKER-REPO)
 
 deploy: deploy-docker
