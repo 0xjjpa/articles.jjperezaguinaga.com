@@ -59,48 +59,6 @@ I'm not sure if this was meant when creating the spec, but I find this one of th
 *   Have you heard of [Flexbox](http://philipwalton.github.io/solved-by-flexbox/)? Now image the previous responsive example bending at your will through flexbox order property. Things like [Content Choreography](http://trentwalton.com/2011/07/14/content-choreography/) are a breeze.
 In terms of reusability, Web Components have something that I have foreseen for many, many years: User Interfaces as a Service. I'm not talking about those ugle WYSYWYG editors with clutter code, or those weird third parties widgets that force their styles on your site. I'm talking about carefully crafted components that can be easily consumed.
 
-Take for instance the following Polymer component:
-
-    &lt;polymer-element name="application-element"  constructor="ApplicationElement" attributes=""&gt;
-      &lt;template&gt;
-        &lt;style&gt;
-          @host { :scope {display: block;} }
-        &lt;/style&gt;
-        &lt;span&gt;I'm &lt;b&gt;application-element&lt;/b&gt;. This is my Shadow DOM.&lt;/span&gt;
-      &lt;/template&gt;
-      &lt;script&gt;
-        Polymer('application-element', {
-          //applyAuthorStyles: true,
-          //resetStyleInheritance: true,
-          created: function() { },
-          enteredView: function() { },
-          leftView: function() { },
-          attributeChanged: function(attrName, oldVal, newVal) { }
-        });
-      &lt;/script&gt;
-    &lt;/polymer-element&gt;
-    `</pre>
-    If you can notice, inside this file (called `application.html`) we have everything we need for a component: the CSS, the JS and the HTML (even the Shadow DOM!). We can then browse this in our main webpage through the `rel=import` command.
-    <pre>`&lt;!-- Place your HTML imports here --&gt;
-    &lt;link rel="import" href="elements/application.html"&gt;
-    `</pre>
-    And in your body... `&lt;application-element&gt;&lt;/application-element&gt;`
-
-    Voilá. Now you have an application element component. This can be hostedanywhere. As long as you enable CORS properly in the server, you can even do cross browser requests. Hit [http://jjperezaguinaga.webscript.io/checkbox](http://jjperezaguinaga.webscript.io/checkbox) to get a Checkbox Polymer Element if you don't believe me. Here's an [Codepen](http://codepen.io/jjperezaguinaga/pen/DqxeL) of said Web Component stored on my own served, created by [Stefan Judis](http://4waisenkinder.de/blog/2013/09/21/getting-started-with-web-components-and-polymer-dot-js/).
-
-    Do you realize the power of this? You can create your own custom components and charge them through domain whitelisting. You can host them in your own server and provide the assembly mechanism that Google+ by just concatenating HTML files. In case you were wondering, components can be enabled to receive parameters, so you can even configure them on runtime.
-
-    A good example is the Google Maps Web Component.
-    <pre>`&lt;google-maps&gt;&lt;/google-maps&gt;
-    `</pre>
-    Boring right? What about this?
-    <pre>`&lt;google-maps latitute="-8.034881" longitude="-34.9182"&gt;&lt;/google-maps&gt;
-
-This attributes can be crafted by the components creators, and can be as powerful as you want. Now, you might be thinking, "Well, we will have to stick with whatever style/design they setup for the component"
-
-Noup.
-
-You see, Web Components have this magic property called `applyAuthorStyles`. If enabled, web components can inherit your own styles. If you are a Web Components designer, you can include a small documentation of the component Markup; by sticking to conventions like [BEM](http://bem.info/method/), your component consumers can then style specific classes for your component, and even though your component might inherit from your author, other components don't, disallowing overriding.
 
 ### Welcome to the new era
 

@@ -31,7 +31,6 @@ I have my own personal predictions on how we the web development landscape is go
 
 ## SVG Animations will replace other visual tools (gifs, icons).
 
-[caption id="attachment_382" align="aligncenter" width="443"][![A simple animation made in SVG and CSS - http://codepen.io/jjperezaguinaga/full/yuBdq](http://jjperezaguinaga.files.wordpress.com/2014/01/svg_animation_jjperezaguinaga.png)](http://jjperezaguinaga.files.wordpress.com/2014/01/svg_animation_jjperezaguinaga.png) A simple animation made in SVG and CSS - http://codepen.io/jjperezaguinaga/full/yuBdq[/caption]
 
 SVG is nothing new, really. [SVG animations](http://codepen.io/jjperezaguinaga/pen/yuBdq "SVG Animation"), however, is. They come in many [flavours](http://codepen.io/noahblon/pen/lxukH "SVG Icons") and [purposes](http://css-tricks.com/using-svg/ "Learning SVG"). They use [Javascript](http://codepen.io/timkim/pen/jJdgk "Snap SVG Example"), [CSS](http://codepen.io/chriscoyier/pen/LixbE "SVG Tabs") or pure [SVG](http://codepen.io/jjperezaguinaga/full/mApqz "SVG Animation (no CSS or JS)"). They help us to shape our webpages, increase the user experience of a product or just provide visual aid. Sometimes they are just to bring cool effects, like [this shape hover effect](http://tympanus.net/codrops/2014/01/07/shape-hover-effect-with-svg/ "Shape hover Effect with SVG") or [this incredible drawing](http://tympanus.net/Development/SVGDrawingAnimation/ "SVG Drawing").
 
@@ -39,7 +38,6 @@ In general, I will expect more and more usage of SVG Animations during 2014\. Wi
 
 ## Offline First will become a trending/growing topic
 
-[caption id="attachment_388" align="aligncenter" width="623"][![A graph showcasing the amount of broadband subscribers. Mexico is showcased as a country with one of the lowest values -  Source http://www.oecd.org/sti/broadband/49536828.pdf](http://jjperezaguinaga.files.wordpress.com/2014/01/oecd-broadband-subscribers-2010.png)](http://jjperezaguinaga.files.wordpress.com/2014/01/oecd-broadband-subscribers-2010.png) A graph showcasing the amount of broadband subscribers. Mexico is showcased as a country with one of the lowest values - Source http://www.oecd.org/sti/broadband/49536828.pdf[/caption]
 
 I had been lucky enough to had worked in multiple countries including Germany, Mexico, United States, Switzerland and Canada. What I had learned from most of my trips is that **connectivity is a luxury. **Data plans all over the world are still a mess to arrange, a pain to set up and a gap between social classes. In Mexico, the internet connection is a joke; it has been rated by the OECD (Organisation for Economic Co-operation and Development) as one of the countries with the lowest connectivity in the world, and only [9% of the country has internet access](http://www.oecd-ilibrary.org/economics/country-statistical-profile-mexico_20752288-table-mex "OECD 2013 Report on Mexico"). In Switzerland, some foreigners with short term permits (L-Permits) can't get an actual data plan unless they provide a hefty fee upfront (around 1107.91 USD) to protect data providers. If Switzerland has such entry barriers, what about less developed countries? 2014 should be the year where **we realise that we need to develop the web taking internet speed in consideration.
 **
@@ -53,7 +51,6 @@ Luckily, there are already some initiatives and tools going on to make this happ
 
 ## Single Page Applications (Load Once™) will grow in popularity
 
-[caption id="attachment_389" align="aligncenter" width="639"][![A MV** library that makes SPA and REST powered applications a breeze - http://angularjs.org/](http://jjperezaguinaga.files.wordpress.com/2014/01/angularjs.png)](http://jjperezaguinaga.files.wordpress.com/2014/01/angularjs.png) A MV** library that makes SPA and REST powered applications a breeze - http://angularjs.org/[/caption]
 
 I had always liked Javascript, but after working on [AngularJS](http://angularjs.org/ "AngularJS") for more than a year, I think I finally fell in love with the language. AngularJS gave me a taste of how beautiful web applications can be and how they should had been made to begin with. Not with jQuery-templates-spaghetti code. Not with full Sencha-screw-HTML libraries. But with future friendly, data-binding, model oriented, MVC structured, friendly testable code. Javascript at its very best.
 
@@ -61,13 +58,11 @@ AngularJS (and [EmberJS](http://emberjs.com/ "EmberJS") alike) allows you to cre
 
 ## Backend as a Service will fuel Single Apps
 
-[caption id="attachment_391" align="aligncenter" width="639"][![A NoBackend oriented project to host your data - http://parse.com](http://jjperezaguinaga.files.wordpress.com/2014/01/parse.png)](http://jjperezaguinaga.files.wordpress.com/2014/01/parse.png) A NoBackend oriented project to host your data - http://parse.com[/caption]
 
 In order to match this Front End heavy approach (known as the [Fat Client, something that has been around ever since 2009](http://www.quirkey.com/blog/2009/09/15/sammy-js-couchdb-and-the-new-web-architecture/ "Sammy JS + REST")), Backends like [Parse](http://parse.com/ "Parse"), [Kinvey](http://www.kinvey.com/ "Kinvey"), [Hood.ie](http://hood.ie/ "Hoodie Homepage") and [Firebase](https://www.firebase.com/ "Firebase") will bring the required REST support. Known as the [NoBackend approach](http://nobackend.org/ "No Backend Approach"), Backend as a Service will grow up in demand, and companies will either switch to those provides or move to a REST architecture themselves. The demand for [API Engineers](http://www.google.com/trends/explore#q=API%20Engineer "API Engineer") will continue to grow and NodeJS frameworks like [KoaJS](http://koajs.com/ "KoaJS - ExpressJS Sucessor") will take preference in companies over heavy lifting frameworks like Ruby on Rails.
 
 ## Build workflows will slowly take over the "Fat Stack"
 
-[caption id="attachment_395" align="aligncenter" width="639"][![Build apps focus on scaffolding most of the work before going into the server - http://yeoman.io/](http://jjperezaguinaga.files.wordpress.com/2014/01/yeoman.png)](http://jjperezaguinaga.files.wordpress.com/2014/01/yeoman.png) Build apps focus on scaffolding most of the work before going into the server - http://yeoman.io/[/caption]
 
 It's going to be build and compile all again. For standard marketing oriented webpages, instead of having to set up some sort of hosting service, an awkward shared VPS subscription, and some obscure back end language, **people will just serve plain html pages**. It's fast, it's easy, and it's most likely what people need. Unless you are building the next LinkedIn, Facebook, Pinterest, etc., your startup landing's page will probably be hosted on [Github Pages](http://pages.github.com/ "Github Pages") or even Amazon S3 with its new [Javascript SDK](http://aws.amazon.com/sdkforbrowser/ "Amazon Javascript SDK").
 
@@ -77,7 +72,6 @@ _Although most business logic and other CPU consuming tasks will still require a
 
 ## Web components will be all over Codepen.io
 
-[caption id="attachment_396" align="aligncenter" width="639"][![Polymer](http://jjperezaguinaga.files.wordpress.com/2014/01/polymer.png "Web Components Polymer")](http://jjperezaguinaga.files.wordpress.com/2014/01/polymer.png) Polymer is a polyfill for Web Components; it allows the usage of Web Components on production without fear of breaking things apart. http://www.polymer-project.org/[/caption]
 
 I had written about [Web Components](http://css-tricks.com/modular-future-web-components/ "Web Components") before: Web Components are the perfect abstraction of style, logic and content that in the future it will be as easy as to fetch them remotely in order to use them in your own web product. I describe this  as [User Interfaces as a Service](http://jjperezaguinaga.com/2013/10/15/the-web-components-era-user-interfaces-as-a-service-uiaas/ "User Interfaces as a Service"), the ability to fetch widgets and modules that apply only to your page and are maintained by somebody else, enrich your content without fear of affecting other elements of your product.
 
