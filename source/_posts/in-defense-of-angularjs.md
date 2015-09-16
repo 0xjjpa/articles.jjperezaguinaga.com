@@ -21,8 +21,6 @@ Sadly, I can't share the code, but I can tell you something: it's a mess. It's t
 
 ## **A deep dive: Judging diving by swimming**
 
-[caption id="" align="aligncenter" width="640"]![](https://c3.staticflickr.com/3/2418/1570016652_cf168c3595_z.jpg?zz=1) Wreck diving, courtesy of Flickr under CC license.[/caption]
-
 Although most of the developers involved in the project didn't like AngularJS, all of them were able to see its benefits and power by the end of the year. It's not that we didn't see other frameworks (we evaluated so many before picking AngularJS), but AngularJS was the only one by the date **that could possibly deliver the product we were looking for**. After the choice was made, everyone in the team went through the documentation, learned the terms, and in our own way, battled through every single deadline for a long year.
 
 Whenever a see an opinion about AngularJS, I realise something: **people are trying to describe diving by swimming**. In other words, most people try to apply their current mindset (e.g. jQuery, Backbone) to AngularJS philosophy. People try to give AngularJS a shoot, do a few lines, code a todo app, fix some code, and then jump to immediate conclusions:
@@ -48,8 +46,6 @@ If you really want to understand why AngularJS became one of the most popular Ja
 AngularJS is a **heavy time investment framework.** It is not by any means a simple library you can plug-in to an existing project. It's an all-or-nothing approach you need to take in order to fully take advantage of it. Like the old phrase, it's not going to be easy, but it's going to be worth it.
 
 ## **Why so deep?**
-
-[caption id="" align="aligncenter" width="1024"]![](https://c2.staticflickr.com/8/7071/7026149599_1a8b278c74_b.jpg) Deep diving in Okinawa, courtesy of Flickr under CC license[/caption]
 
 Now, whenever I discuss this point of view with other developers, I'm given multiple arguments. I'm going to go through each of the most common ones, as well as the ones described in the aforementioned articles.
 
@@ -85,4 +81,3 @@ See, nothing of that will happen. What will happen is that mature projects with 
 
 I came to the conclusion that what's happening with AngularJS at the moment is that it reached the [Kool-Aid Point ](https://en.wikipedia.org/wiki/Kathy_Sierra "Kool-Aid Point defined by Kathy Sierra (see “Harassment”)"). You see, doesn't matter the language, runtime environment, text editor or framework you use, [programming will always suck](http://stilldrinking.org/programming-sucks "Programming Sucks"). Having an open-source framework that makes our life easier should come to all developers as a something from heaven, but after it becomes so popular, it also becomes a target. I'm not saying that we shouldn't question the tools we use for our work, but that we should be aware that some very talented and smart people are behind of it. Give it a chance. Who knows, maybe you will enjoy it after some time. To be honest, it's really nice down here once you get used to it.
 
-[caption id="" align="alignnone" width="1600"]![](https://c2.staticflickr.com/6/5566/15010170127_03bf0a2d8f_h.jpg) Diving, courtesy from Flickr under CC license[/caption]
